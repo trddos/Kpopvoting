@@ -1,0 +1,23 @@
+<!-- requests.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Request Voting</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Request A Voting</h2>
+    <form id="requestForm">
+      <input type="text" id="artistName" placeholder="Artist / Group Name" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
+      <textarea id="message" placeholder="Why do you want this voting?" style="width: 100%; padding: 10px; margin-bottom: 10px;"></textarea>
+      <button type="submit">SUBMIT REQUEST</button>
+    </form>
+  </div>
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/requests.js"></script>
+</body>
+</html>
