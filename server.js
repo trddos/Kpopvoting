@@ -2,7 +2,7 @@ const { Telegraf } = require('telegraf');
 const { createClient } = require('@supabase/supabase-js');
 
 // 🔴 APNE CREDENTIALS NICHE QUOTES "" ME REPLACE KAREIN
-const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "8787033544:AAEFzjn-N5agaF7aDI0OuDnJ_n2tnpfMc6Y";
+const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "8787033544:AAHOX-1J-ynLT58DzBa4loTVYtWB2L-vTRI";
 const SUPABASE_URL = process.env.SUPABASE_URL || "https://vmjtehhbdbobgnqitagc.supabase.co";
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZtanRlaGhiZGJvYmducWl0YWdjIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4ODIwMzY5NywiZXhwIjoyMTAzNzc5Njk3fQ.tVXMsM50hQ-LfLUo5-Ojm--3zYAPXApxLqSSo3Cxhs8";
 const ADMIN_ID = process.env.ADMIN_TELEGRAM_ID || "1969155890";
